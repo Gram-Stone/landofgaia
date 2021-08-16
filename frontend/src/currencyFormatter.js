@@ -1,5 +1,6 @@
-const formatter = new Intl.NumberFormat(undefined, {
-  style: 'currency',
-  currency: 'USD',
+const currencyFormatter = new Intl.NumberFormat(undefined, {
+  style: "currency",
+  currency: "USD",
 });
-export default formatter;
+
+export default currencyFormatter;
