@@ -1,0 +1,27 @@
+{
+  "name": "landofgaia",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Land of Gaia",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gram-Stone/landofgaia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gram-Stone/landofgaia/issues"
+  },
+  "homepage": "https://github.com/Gram-Stone/landofgaia#readme",
+  "dependencies": {
+    "eslint": "^7.32.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
