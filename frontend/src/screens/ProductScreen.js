@@ -11,21 +11,21 @@ export default function ProductScreen(props) {
   return (
     <div>
       <Link to="/">Back to result</Link>
-      <div className="row top">
-        <div className="col-2">
-          <img className="large" src={product.image} alt={product.name}></img>
+      <div>
+        <div>
+          <img src={product.image} alt={product.name}></img>
         </div>
-        <div className="col-1">
+        <div>
           <ul>
             <li>{product.name}</li>
             <li>{currencyFormatter.format(product.price)}</li>
           </ul>
         </div>
-        <div className="col-1">
-          <div className="card card-body">
+        <div>
+          <div className="card">
             <ul>
               <li>
-                <div className="row">
+                <div>
                   <div>Price</div>
                   <div className="price">
                     {currencyFormatter.format(product.price)}
@@ -33,19 +33,19 @@ export default function ProductScreen(props) {
                 </div>
               </li>
               <li>
-                <div className="row">
+                <div>
                   <div>Status</div>
                   <div>
                     {product.countInStock > 0 ? (
-                      <span className="success">In Stock</span>
+                      <span>In Stock</span>
                     ) : (
-                      <span className="error">Unavailable</span>
+                      <span>Unavailable</span>
                     )}
                   </div>
                 </div>
               </li>
               <li>
-                <button className="primary block">Add to Cart</button>
+                <button>Add to Cart</button>
               </li>
             </ul>
           </div>
