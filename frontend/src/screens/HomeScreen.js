@@ -19,7 +19,7 @@ export default function HomeScreen() {
       ) : error ? (
         <MessageBox>{error}</MessageBox>
       ) : (
-        <div className="row center">
+        <div>
           {products.map((product) => (
             <Product key={product._id} product={product}></Product>
           ))}
