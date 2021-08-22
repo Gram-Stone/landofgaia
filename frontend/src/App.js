@@ -8,9 +8,9 @@ function App() {
     <BrowserRouter>
       <header>
         <Link to="/">
-          <img class="logo" src="../images/logo.svg" alt="Logo" />
+          <img className="logo" src="../images/logo.svg" alt="Logo" />
         </Link>
-        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <input type="checkbox" id="nav-toggle" className="nav-toggle" />
         <nav>
           <ul>
             <li>
@@ -33,10 +33,10 @@ function App() {
             </li>
           </ul>
         </nav>
-        <div class="search-cart">
-          <i class="fa fa-search"></i>
-          <i class="fas fa-shopping-bag"></i>
-          <label for="nav-toggle" class="nav-toggle-label">
+        <div className="search-cart">
+          <i className="fa fa-search"></i>
+          <i className="fas fa-shopping-bag"></i>
+          <label htmlFor="nav-toggle" className="nav-toggle-label">
             <span></span>
           </label>
         </div>
@@ -45,8 +45,8 @@ function App() {
         <Route path="/" component={HomeScreen} exact></Route>
         <Route path="/product/:id" component={ProductScreen}></Route>
       </main>
-      <footer class="footer">
-        <div class="footer-left">
+      <footer className="footer">
+        <div className="footer-left">
           <img src="../images/logo.svg" alt="logo" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, sint
@@ -55,10 +55,10 @@ function App() {
             Saepe excepturi iusto tempore.
           </p>
         </div>
-        <ul class="footer-right">
+        <ul className="footer-right">
           <li>
             <h2>Help and Info</h2>
-            <ul class="box">
+            <ul className="box">
               <li>
                 <a href="#">Track Your Order</a>
               </li>
@@ -78,7 +78,7 @@ function App() {
           </li>
           <li>
             <h2>About Us</h2>
-            <ul class="box">
+            <ul className="box">
               <li>
                 <a href="#">Our Story</a>
               </li>
@@ -95,7 +95,7 @@ function App() {
           </li>
           <li>
             <h2>Our Policies</h2>
-            <ul class="box">
+            <ul className="box">
               <li>
                 <a href="#">Privacy Policy</a>
               </li>
@@ -111,16 +111,16 @@ function App() {
             </ul>
           </li>
         </ul>
-        <div class="footer-bottom">
-          <div class="socials">
+        <div className="footer-bottom">
+          <div className="socials">
             <a href="https://www.pinterest.com/envision5076111/">
-              <i class="fab fa-pinterest"></i>
+              <i className="fab fa-pinterest"></i>
             </a>
             <a href="https://www.instagram.com/landofgaia/">
-              <i class="fab fa-instagram"></i>
+              <i className="fab fa-instagram"></i>
             </a>
             <a href="https://www.facebook.com/LandofGaia/">
-              <i class="fab fa-facebook"></i>
+              <i className="fab fa-facebook"></i>
             </a>
           </div>
           <p>&copy; 2021 Land of Gaia, LLC. All Rights Reserved.</p>
