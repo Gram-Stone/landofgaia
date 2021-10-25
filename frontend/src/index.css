@@ -224,8 +224,6 @@ h2 {
   header {
     display: flex;
   }
-  .logo {
-  }
   .footer-right > * {
     flex: 1;
   }
