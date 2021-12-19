@@ -123,7 +123,10 @@ function App() {
               <i className="fab fa-facebook"></i>
             </a>
           </div>
-          <p>&copy; 2021 Land of Gaia, LLC. All Rights Reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Land of Gaia, LLC. All Rights
+            Reserved.
+          </p>
         </div>
       </footer>
     </BrowserRouter>
