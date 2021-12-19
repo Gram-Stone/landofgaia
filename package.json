@@ -5,7 +5,7 @@
   "description": "Land of Gaia",
   "main": "index.js",
   "scripts": {
-    "start": "node --experimental-modules backend/server.js"
+    "start": "node --experimental-modules server.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "@types/node": "^17.0.1",
     "eslint": "^7.32.0"
   }
 }
