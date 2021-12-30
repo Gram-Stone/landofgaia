@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "description": "Land of Gaia",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node --experimental-modules server.js"
   },
