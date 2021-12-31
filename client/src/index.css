@@ -123,6 +123,7 @@ main {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  margin: auto;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
