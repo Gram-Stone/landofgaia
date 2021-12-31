@@ -119,16 +119,15 @@ nav a {
 }
 
 main {
+  background-color: #fdfdf9;
+}
+
+.items {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  margin-bottom: 30px;
-  background-color: #fdfdf9;
 }
 
 .card {
