@@ -22,7 +22,7 @@ app.get("/api/products", (req, res) => {
   res.send(data.products);
 });
 
-app.get("/", (req, res) => {
+app.get("/*", (req, res) => {
   res.sendFile(path.join(__dirname, "client", "build", "index.html"));
 });
 
